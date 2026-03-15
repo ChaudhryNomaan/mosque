@@ -54,12 +54,7 @@ export const MosqueCard = ({ name, distance, nextPrayer, imam }: MosqueProps) =>
           <p className="text-sm font-medium text-[#1C1C1C] tracking-wide uppercase leading-tight">
             {imam}
           </p>
-          {/* Subtle geometric motif in corner */}
-          <div className="absolute bottom-0 right-0 opacity-5 group-hover:opacity-20 transition-opacity duration-700">
-             <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M20 0L23.5 16.5L40 20L23.5 23.5L20 40L16.5 23.5L0 20L16.5 16.5L20 0Z" fill="#C5A059"/>
-             </svg>
-          </div>
+          {/* Watermark/Motif SVG has been removed from here */}
         </div>
       </div>
 
